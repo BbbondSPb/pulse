@@ -5,12 +5,21 @@
     
 @media (max-width: 991px) {
     .container {
-        width: 760px;
+        width: 740px;
     }
     .advantages {
         &__descr {
             font-size: 13px;
         }
+    }
+    .consultation {
+        padding: 85px 0 92px 0;
+        &__descr {
+            margin-top: 54px;
+        }
+    }
+    .title_left {
+        font-size: 30px;
     }
 }
 
@@ -64,7 +73,14 @@
             }
         }
     }
-        
+    .consultation {
+        &__descr {
+            margin-top: 45px;
+        }
+    }
+    .title_left {
+        font-size: 25px;
+    }
    
 }
     
@@ -148,5 +164,19 @@
             margin-top: 19px;
             font-size: 14px;
         }
+    }
+    .consultation {
+        min-height: 635px;
+        &__descr {
+            font-size: 14px;
+            text-align: center;
+        }
+    }
+    .title_left {
+        font-size: 14px;
+        text-align: center;
+    }
+    .feed-form {
+        margin: 36px auto 0 auto;
     }
 }
