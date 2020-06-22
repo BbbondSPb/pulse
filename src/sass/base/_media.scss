@@ -81,6 +81,18 @@
     .title_left {
         font-size: 25px;
     }
+    .catalog {
+        &__tab {
+            width: 170px;
+            height: 45px;
+            font-size: 16px;
+            line-height: 43px;
+            
+        }
+        &__content {
+            justify-content: center;
+        }
+    }
    
 }
     
@@ -132,7 +144,7 @@
         
     }
     .title {
-        font-size: 24px;
+        font-size: 22px;
     }
     .advantages {
         padding: 50px 0 ;
@@ -178,5 +190,14 @@
     }
     .feed-form {
         margin: 36px auto 0 auto;
+    }
+    .catalog {
+        &__tab {
+            width: 90px;
+            height: 32px;
+            font-size: 10px;
+            line-height: 30px;
+            
+        }
     }
 }
