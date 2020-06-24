@@ -118,6 +118,9 @@
             font-size: 12px;
         }
     }
+    .footer {
+        height: 450px;
+    }
 }
     
 
@@ -250,6 +253,35 @@
         img{
             margin-bottom: 30px;
         }
+    }
+    .footer {
+        height: 380px;
+        &__info {
+            width: 280px;
+            height: 180px;
+            padding: 24px;
+        }
+        &__addr {
+            margin-bottom: 22px;
+            font-size: 14px;
+            line-height: 14px;
+    
+        }
+        &__phone {
+            margin-bottom: 22px;
+            font-size: 16px;
+            line-height: 16px;
+    
+        }
+        &__social-item {
+            width: 40px;
+            height: 40px;
+            img {
+                height: 21px;
+            }
+        }
+        
+        
     }
 
 }
