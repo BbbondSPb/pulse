@@ -283,5 +283,28 @@
         
         
     }
+    .modal {
+        padding: 20px 10px;
+        width: 230px;
+        input {
+            width: 210px;
 
+        }
+        .button_submit {
+            width: 210px;
+        }
+        
+    }
+    #consultation {
+        padding: 20px 8px;
+        .modal__subtitle {
+            font-size: 13px;
+        }
+        .modal__descr {
+            font-size: 11px;
+        }
+        .button {
+            font-size: 14px;
+        }
+    }
 }

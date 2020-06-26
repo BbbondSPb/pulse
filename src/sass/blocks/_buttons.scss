@@ -12,6 +12,9 @@
         box-shadow: 3px 3px 10px $main-color;
         border: none;
     }
+    &:active {
+        border: none;
+    }
     &_main {
         margin-top: 67px;
         width: 300px;
