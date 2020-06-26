@@ -69,4 +69,39 @@ $(document).ready(function(){
       $('.overlay, #order').fadeIn('slow');
     })
   });
+
+  function valideForms(form){
+    $(form).validate({
+      rules: {
+        name: {
+          required: true,
+          minlength: 2
+        },
+        phone: "required",
+        email: {
+          required: true,
+          email: true
+        }
+      },
+      messages: {
+        name: {
+          required: "Пожалуйста, введите Ваше имя",
+          minlength: jQuery.validator.format("Имя должно состоять минимум из {0} букв!")
+        },
+        phone: "Пожалуйста, введите Ваш телефон",
+        email: {
+          required: "Пожалуйста, введите Ваш email",
+          email: "Не правильный email, введите email в формате name@domain.com"
+        }
+      }
+    });
+  };
+
+  valideForms('#consultation-form');
+  valideForms('#consultation form');
+  valideForms('#order form');
+
+  $('input[name=phone]').mask("+7(999)999-99-99");
 });
+
+
