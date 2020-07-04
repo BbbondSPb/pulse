@@ -130,10 +130,11 @@
             transform: translateX(0%);
             padding-right: 20px;
             transition: 0.5s all;
-            padding-left: 19px;
-            margin-bottom: 0;
-            list-style-type: none;
-            
+            &_ul{
+                padding-left: 19px;
+                margin-bottom: 0;
+                list-style-type: none;
+            }
             &_active {
                 margin-right: 0px;
                 transform: translateX(calc(-100% - 20px));
@@ -155,8 +156,8 @@
 
                 }
             }
-            
         }
+        
         &__back {
             position: absolute;
             bottom: 0;
@@ -173,5 +174,6 @@
                 color: $main-color;
             }
         }
+    
     }
 }

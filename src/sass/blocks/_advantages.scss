@@ -39,4 +39,15 @@
             text-decoration: underline;
         }
     }
+    &__icon {
+        &_animated {
+            animation-name: haertbeat;
+            animation-duration: 2s;
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
+    }
 }
